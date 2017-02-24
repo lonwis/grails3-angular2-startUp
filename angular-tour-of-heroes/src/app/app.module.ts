@@ -16,6 +16,5 @@ import { HeroService }  from './services/hero.service';
     HeroDetailComponent
   ],
   bootstrap:    [ AppComponent ],
-  providers: [HeroService],
 })
 export class AppModule { }
