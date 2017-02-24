@@ -3,5 +3,4 @@
 *.iml
 .editorconfig
 node_modules
- 
-
+*.map
