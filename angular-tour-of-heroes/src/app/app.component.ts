@@ -1,14 +1,15 @@
-import { Component,OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { Hero } from './components/hero';
+
 
 
 @Component({
   selector: 'my-app',
   template: `
-  qq
+    <h1>{{title}}</h1>
+    <my-heroes></my-heroes>
     `,
 })
 export class AppComponent   {
-
+  title = 'Tour of Heroes'
 }
