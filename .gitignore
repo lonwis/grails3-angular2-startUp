@@ -1,0 +1,7 @@
+.idea
+*.dll
+*.iml
+.editorconfig
+node_modules
+ 
+
