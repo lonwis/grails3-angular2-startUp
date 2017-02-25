@@ -68,8 +68,6 @@ import { HeroService } from '../services/hero.service';
     border-radius: 4px 0 0 4px;
   }
 `],
-
-  providers: [HeroService],
 })
 export class HeroesComponent implements OnInit {
   title = 'List of Heroes';
